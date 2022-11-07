@@ -2,6 +2,7 @@ package com.java;
 
 import org.junit.Test;
 
+import java.time.Instant;
 import java.util.Calendar;
 
 /*
@@ -31,5 +32,11 @@ public class CalenderTest {
 
         //add()
 
+    }
+
+    @Test
+    public void test1(){
+        Instant in = Instant.now();
+        System.out.println(in);//本初子午线
     }
 }
